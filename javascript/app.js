@@ -31,7 +31,7 @@ function makeActive() {
           section.classList.add('your-active-class'); // Add active class to the section
           navLinks[index].classList.add('your-active-class'); // Add active class to the corresponding nav link
       } else {
-          section.classList.remove('you-active-class'); // Remove active class from the section
+          section.classList.remove('your-active-class'); // Remove active class from the section
           navLinks[index].classList.remove('you-active-class'); // Remove active class from the corresponding nav link
       }
   });
