@@ -1,4 +1,4 @@
-# landing-page1
+# Landing Page Project
 
 ## Project Description
 This project is a dynamic landing page exercise in DOM manipulation using JavaScript.
