@@ -9,4 +9,4 @@ This project is a dynamic landing page exercise in DOM manipulation using JavaSc
 - created a function that adds a class 'active' when in that section and removes the class 'active' when it is not.
 
 ## Github URL
-[https://jenniferjim97.github.io/landing-page1/#section4]
+[https://jenniferjim97.github.io/landing-page1/]
