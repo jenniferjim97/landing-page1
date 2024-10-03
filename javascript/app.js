@@ -28,11 +28,11 @@ function makeActive() {
   sections.forEach((section, index) => {
       const box = section.getBoundingClientRect();
       if (box.top <= VALUE && box.bottom >= VALUE) {
-          section.classList.add('active'); // Add active class to the section
-          navLinks[index].classList.add('active'); // Add active class to the corresponding nav link
+          section.classList.add('your-active-class'); // Add active class to the section
+          navLinks[index].classList.add('your-active-class'); // Add active class to the corresponding nav link
       } else {
-          section.classList.remove('active'); // Remove active class from the section
-          navLinks[index].classList.remove('active'); // Remove active class from the corresponding nav link
+          section.classList.remove('you-active-class'); // Remove active class from the section
+          navLinks[index].classList.remove('you-active-class'); // Remove active class from the corresponding nav link
       }
   });
 };
