@@ -19,6 +19,16 @@ for(const section of sections) {
   
   li.appendChild(a);
   ul.appendChild(li); 
+};
+
+function smoothScroll(e){
+  if(e.target.nodeName === 'A'){
+  e.preventDefault();
+  const sectionId = e.target.getAttribute("href").substring(1);
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: "smooth" });
+  }
+
 }
 
 function makeActive() {
@@ -39,3 +49,4 @@ function makeActive() {
 
 // Call the function on scroll
 document.addEventListener('scroll', makeActive);
+ul.addEventListener('click', smoothScroll);
