@@ -185,19 +185,22 @@ section:nth-of-type(3n + 1) .landing_page::after {
 /* ---- Theme State Rules ---- */
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
-section.your-active-class {
+section.active {
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-section.your-active-class .landing_page::before {
+section.active .landing_page::before {
   opacity: 1;
   animation: rotate 4s linear 0s infinite forwards;
 }
 
-section.your-active-class .landing_page::after {
+section.active .landing_page::after {
   opacity: 1;
   animation: rotate 5s linear 0s infinite forwards reverse;
+}
+nav a.active{
+  background-color: #ff8c82;
 }
 
 /* Section Active Styles Keyframe Animations */
